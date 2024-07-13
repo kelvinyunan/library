@@ -1,5 +1,56 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+body {
+    background-color: gray;
+}
+
 .container {
     display: grid;
     overflow: auto;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.card {
+    background-color: rgb(153, 153, 153);
+    padding:35px;
+    display: grid;
+    border-radius: 25px;
+    box-shadow: 7px 7px 5px rgb(110, 110, 110);
+}
+
+.buttons {
+    width: 50%;
+    height: 2rem;
+    margin: 3px auto auto auto;
+    border-radius: 5px;
+    border: 0;
+}
+
+p {
+    margin: 10px
+}
+
+.deleteBtn {
+    background-color: rgb(255, 72, 72);
+    color: white;
+}
+
+.deleteBtn:hover {
+    background-color: rgb(255, 4, 4);
+    color: white;
+}
+
+.readBtn {
+    background-color: rgb(66, 126, 255);
+    color: white;
+}
+
+.readBtn:hover {
+    background-color: rgb(45, 45, 252);
+    color: white;
 }
